@@ -1,0 +1,41 @@
+DATA QUALITY SUMMARY
+
+Dataset: 01_fund_master.csv
+Rows: 40
+Columns: 15
+Missing Values: 0
+Duplicate Rows: 0
+
+Dataset: 02_nav_history.csv
+Rows: 46000
+Columns: 3
+Missing Values: 0
+Duplicate Rows: 0
+
+Fund Master Analysis
+--------------------
+Unique Fund Houses: 10
+Unique Categories: 2
+Unique Sub Categories: 12
+Unique Risk Categories: 5
+
+AMFI Validation
+---------------
+Missing Codes: 0
+
+Date Range
+----------
+Start Date: 2022-01-03
+End Date: 2026-05-29
+
+Live NAV Fetch
+--------------
+Successfully fetched:
+- SBI Bluechip
+- ICICI Bluechip
+- Nippon Large Cap
+- Axis Bluechip
+- Kotak Bluechip
+
+Status:
+Day 1 Data Ingestion Completed Successfully
