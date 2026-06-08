@@ -129,6 +129,83 @@ MutualFundAnalysis/
 
 ---
 
+---
+
+## Day 5 – Power BI Dashboard Development
+
+### Objective
+
+Developed a multi-page interactive Power BI dashboard to visualize mutual fund industry data, fund performance metrics, investor behavior, and SIP market trends.
+
+### Dashboard Pages
+
+#### 1. Industry Overview Dashboard
+
+Visualizations:
+
+- Total AUM KPI Card
+- Total SIP Inflows KPI Card
+- Total Folios KPI Card
+- AUM by Fund House (Bar Chart)
+- Monthly SIP Inflow Trend (Line Chart)
+
+#### 2. Fund Performance Dashboard
+
+Visualizations:
+
+- NAV Trend Analysis
+- Return vs Risk Analysis (Bubble Chart)
+- Benchmark Performance Comparison
+- Scheme Performance Scorecard
+
+Metrics Used:
+
+- Returns (1Y, 3Y, 5Y)
+- Alpha
+- Beta
+- Sharpe Ratio
+- Standard Deviation
+- Risk Categories
+
+#### 3. Investor Analytics Dashboard
+
+Visualizations:
+
+- Transaction Amount by State
+- Age Group vs Average Investment
+- Transaction Type Distribution
+- Monthly Transaction Volume
+
+Interactive Filters:
+
+- State Slicer
+- Age Group Slicer
+- City Tier Slicer
+
+#### 4. SIP & Market Trends Dashboard
+
+Visualizations:
+
+- Monthly SIP Inflow Trend
+- Category-wise Net Inflows
+- SIP AUM Growth Trend
+- Category Inflow Trends
+
+KPI Cards:
+
+- Total SIP Inflow
+- Active SIP Accounts
+- New SIP Accounts
+
+### Deliverables
+
+- Power BI Dashboard (`dashboard/bluestock_mf_dashboard.pbix`)
+- Dashboard Screenshots
+- Interactive Reports
+- Updated Documentation
+
+---
+
 ## Author
 
 Thanmayee Vempati
