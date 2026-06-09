@@ -202,7 +202,104 @@ KPI Cards:
 - Power BI Dashboard (`dashboard/bluestock_mf_dashboard.pbix`)
 - Dashboard Screenshots
 - Interactive Reports
-- Updated Documentation
+
+---
+
+## Day 6 – Advanced Analytics & Risk Metrics
+
+### Objective
+
+Performed advanced mutual fund analytics to evaluate risk characteristics, investor behavior, portfolio concentration, and recommendation strategies.
+
+### Tasks Completed
+
+#### 1. Historical Risk Analysis
+
+Computed:
+
+* Historical Value at Risk (VaR 95%)
+* Conditional Value at Risk (CVaR)
+
+These metrics were calculated for all schemes to measure downside risk.
+
+#### 2. Rolling Sharpe Ratio Analysis
+
+* Calculated Rolling 90-Day Sharpe Ratio
+* Analyzed risk-adjusted returns over time
+* Generated Rolling Sharpe Ratio visualization
+
+#### 3. Investor Cohort Analysis
+
+Grouped investors based on their first transaction year and computed:
+
+* Average investment amount
+* Total invested amount
+* Cohort-wise investment behavior
+
+#### 4. SIP Continuity Analysis
+
+Analyzed investor transaction gaps to identify SIP continuity patterns.
+
+Generated:
+
+* At-risk investor list
+* Average gap between SIP transactions
+
+#### 5. Fund Recommendation Engine
+
+Built a simple recommendation system based on:
+
+* Risk appetite (Low / Moderate / High)
+* Risk grade
+* Sharpe ratio ranking
+
+Implemented in:
+
+* `recommender.py`
+
+#### 6. Portfolio Concentration Analysis
+
+Computed Sector Herfindahl-Hirschman Index (HHI) using portfolio weights to identify highly concentrated sectors.
+
+Top concentrated sectors included:
+
+* Banking
+* IT
+* Pharma
+* Automobile
+* Utilities
+
+#### 7. Advanced Insights
+
+Generated analytical insights on:
+
+* Risk concentration
+* Investor cohorts
+* SIP continuity
+* Portfolio diversification
+* Fund recommendation patterns
+
+#### Notebook
+
+* `notebooks/05_advanced_analytics.ipynb`
+
+#### Reports
+
+* `reports/var_cvar_report.csv`
+* `reports/cohort_analysis.csv`
+* `reports/at_risk_investors.csv`
+* `reports/hhi_report.csv`
+* `reports/rolling_sharpe_chart.png`
+
+#### Scripts
+
+* `recommender.py`
+
+#### Outputs
+
+* Advanced analytical insights
+* Sector concentration analysis
+* Risk metrics and investor behavior reports
 
 ---
 
